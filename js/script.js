@@ -1,7 +1,7 @@
 //Choose a random color
 const span = document.querySelector('span')
 const body = document.querySelector('body')
-const colors = ['black', 'white', 'grey']
+const colors = ['black', 'white', 'grey', 'orangered']
 
 body.style.backgroundColor = 'black'
 span.addEventListener('click', changeBackground)
